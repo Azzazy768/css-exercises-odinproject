@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
 }
 
+*{
+  border-color: red;
+}
+
 .card {
   width: 400px;
   background: #fff;
