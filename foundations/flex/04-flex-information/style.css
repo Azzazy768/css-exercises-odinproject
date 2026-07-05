@@ -10,7 +10,37 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.flex-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-containers{
+  display:flex;
+  flex-flow: row;
+  gap:52px;
+}
+
+.barberryContainer{
+  display: flex;
+  flex-flow:column wrap;
+   width:200px;
+}
+
+
+img{
+  align-self: center;
+  height: auto;
+}
+
+.text{
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
